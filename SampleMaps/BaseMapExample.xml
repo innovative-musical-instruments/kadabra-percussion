@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<samplemap ID="BaseMapExample" RRGroupAmount="1.0" MicPositions=";">
+  <sample Root="71" LoKey="12" HiKey="96" LoVel="0" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}1kHz_44100Hz_16bit_05sec.wav" Duplicate="0"/>
+</samplemap>

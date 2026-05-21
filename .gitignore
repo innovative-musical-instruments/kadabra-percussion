@@ -1,0 +1,57 @@
+# HISE build output
+Binaries/
+Builds/
+
+# HISE temp files
+*.tmp
+*.log
+
+# HISE autosaves
+Presets/Autosave_*.hip
+Presets/*_Recovered.xml
+Presets/Autosave_*.xml
+Presets/*.hip
+
+# HISE compiled caches (auto-regenerated)
+PooledResources/
+
+# HISE sample monolith (users build from WAV files)
+*.hr1
+*.ch1
+
+# Old development iterations
+Presets/IMI Instrument BaseProject.hip
+XmlPresetBackups/IMI Instrument BaseProject*
+Scripts/ScriptProcessors/IMIInstrumentBaseProject/
+Scripts/ScriptProcessors/KDBR_EDFilmstripping1/
+Scripts/ScriptProcessors/KEDK_GUI_MACRO_OK1/
+Scripts/ScriptProcessors/KEDK_DelayFixPart1/
+Scripts/ScriptProcessors/KEDK_DelayFixPart2/
+XmlPresetBackups/KEDK_DelayFixPart1*
+XmlPresetBackups/KEDK_DelayFixPart2*
+UserPresets/db.json
+
+# macOS system files
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows system files
+Thumbs.db
+Desktop.ini
+
+# JUCE/Projucer
+*.jucer.bak
+
+# IDE files
+.vscode/
+.idea/
+*.xcuserdata
+*.xcworkspace
+xcuserdata/
+
+# Compiled plugin binaries
+*.vst3
+*.component
+*.app
+*.exe

@@ -1,0 +1,54 @@
+K-Samplers — Virtual Instruments for Kadabra
+Copyright (C) [YEAR] Innovative Musical Instruments (IMI)
+
+--------------------------------------------------------------------------------
+SOURCE CODE LICENSE
+--------------------------------------------------------------------------------
+
+This program is free software: you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation, either version 3 of the License, or
+(at your option) any later version.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with this program. If not, see <https://www.gnu.org/licenses/>.
+
+--------------------------------------------------------------------------------
+AUDIO SAMPLES LICENSE
+--------------------------------------------------------------------------------
+
+The audio samples included in this repository are licensed separately under the
+Creative Commons Attribution 4.0 International License (CC BY 4.0).
+
+You are free to:
+  - Share — copy and redistribute the samples in any medium or format
+  - Adapt — remix, transform, and build upon the samples for any purpose,
+    even commercially
+
+Under the following terms:
+  - Attribution — You must give appropriate credit to Innovative Musical
+    Instruments (IMI), provide a link to the license, and indicate if changes
+    were made.
+
+Full license text: https://creativecommons.org/licenses/by/4.0/
+
+--------------------------------------------------------------------------------
+THIRD-PARTY FRAMEWORKS
+--------------------------------------------------------------------------------
+
+This instrument was built using:
+
+  HISE (Hart Instruments Sampler Engine)
+  Copyright (C) Christoph Hart
+  Licensed under GPLv3 — https://hise.dev
+
+  JUCE
+  Copyright (C) Raw Material Software Limited
+  Licensed under AGPLv3 — https://juce.com
+
+--------------------------------------------------------------------------------
