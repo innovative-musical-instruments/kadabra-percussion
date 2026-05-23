@@ -1,0 +1,448 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<samplemap ID="KadabraPercussionSampleMapNew" RRGroupAmount="1.0" MicPositions=";"
+           CrossfadeGamma="1.0" SaveMode="2">
+  <sample Root="0" LoKey="0" HiKey="0" LoVel="0" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}KP Samples/KP_Klank_1_000.wav" Duplicate="0"
+          SampleEnd="23655" MonolithOffset="0" MonolithLength="24576" SampleRate="44100.0"/>
+  <sample Root="1" LoKey="1" HiKey="1" LoVel="0" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}KP Samples/KP_Klank_2_001.wav" Duplicate="0"
+          SampleEnd="9546" MonolithOffset="24576" MonolithLength="12288"
+          SampleRate="44100.0"/>
+  <sample Root="2" LoKey="2" HiKey="2" LoVel="0" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}KP Samples/KP_Klank_3_002.wav" Duplicate="0"
+          SampleEnd="9422" MonolithOffset="36864" MonolithLength="12288"
+          SampleRate="44100.0"/>
+  <sample Root="3" LoKey="3" HiKey="3" LoVel="0" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}KP Samples/KP_Klank_4_003.wav" Duplicate="0"
+          SampleEnd="40233" MonolithOffset="49152" MonolithLength="40960"
+          SampleRate="44100.0"/>
+  <sample Root="4" LoKey="4" HiKey="4" LoVel="0" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}KP Samples/KP_Klank_5_004.wav" Duplicate="0"
+          SampleEnd="17259" MonolithOffset="90112" MonolithLength="20480"
+          SampleRate="44100.0"/>
+  <sample Root="5" LoKey="5" HiKey="5" LoVel="0" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}KP Samples/KP_Klank_6_005.wav" Duplicate="0"
+          SampleEnd="14268" MonolithOffset="110592" MonolithLength="16384"
+          SampleRate="44100.0"/>
+  <sample Root="6" LoKey="6" HiKey="6" LoVel="0" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}KP Samples/KP_MetalHit_006.wav" Duplicate="0"
+          SampleEnd="62877" MonolithOffset="126976" MonolithLength="65536"
+          SampleRate="44100.0"/>
+  <sample Root="7" LoKey="7" HiKey="7" LoVel="0" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}KP Samples/KP_HandDrum_007.wav" Duplicate="0"
+          SampleEnd="61361" MonolithOffset="192512" MonolithLength="61440"
+          SampleRate="44100.0"/>
+  <sample Root="8" LoKey="8" HiKey="8" LoVel="0" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}KP Samples/KP_DoumbekTek_2_008.wav"
+          Duplicate="0" SampleEnd="12280" MonolithOffset="253952" MonolithLength="12288"
+          SampleRate="44100.0"/>
+  <sample Root="9" LoKey="9" HiKey="9" LoVel="0" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}KP Samples/KP_HighConga_5_009.wav"
+          Duplicate="0" SampleEnd="51651" MonolithOffset="266240" MonolithLength="53248"
+          SampleRate="44100.0"/>
+  <sample Root="10" LoKey="10" HiKey="10" LoVel="0" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}KP Samples/KP_MuteHighConga_1_010.wav"
+          Duplicate="0" SampleEnd="22291" MonolithOffset="319488" MonolithLength="24576"
+          SampleRate="44100.0"/>
+  <sample Root="11" LoKey="11" HiKey="11" LoVel="0" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}KP Samples/KP_OpenHighConga_1_011.wav"
+          Duplicate="0" SampleEnd="20605" MonolithOffset="344064" MonolithLength="24576"
+          SampleRate="44100.0"/>
+  <sample Root="12" LoKey="12" HiKey="12" LoVel="0" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}KP Samples/KP_OilDrum_012.wav" Duplicate="0"
+          SampleEnd="52499" MonolithOffset="368640" MonolithLength="53248"
+          SampleRate="44100.0"/>
+  <sample Root="13" LoKey="13" HiKey="14" LoVel="0" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}KP Samples/KP_OpenSurdo_1_013.wav"
+          Duplicate="0" SampleEnd="44271" MonolithOffset="421888" MonolithLength="45056"
+          SampleRate="44100.0"/>
+  <sample Root="15" LoKey="15" HiKey="16" LoVel="0" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}KP Samples/KP_MuteSurdo_1_015.wav"
+          Duplicate="0" SampleEnd="32898" MonolithOffset="466944" MonolithLength="36864"
+          SampleRate="44100.0"/>
+  <sample Root="17" LoKey="17" HiKey="18" LoVel="0" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}KP Samples/KP_OpenSurdo_2_017.wav"
+          Duplicate="0" SampleEnd="58334" MonolithOffset="503808" MonolithLength="61440"
+          SampleRate="44100.0"/>
+  <sample Root="19" LoKey="19" HiKey="20" LoVel="0" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}KP Samples/KP_MuteSurdo_2_019.wav"
+          Duplicate="0" SampleEnd="25478" MonolithOffset="565248" MonolithLength="28672"
+          SampleRate="44100.0"/>
+  <sample Root="21" LoKey="21" HiKey="22" LoVel="0" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}KP Samples/KP_DoumbekDoum_021.wav"
+          Duplicate="0" SampleEnd="35556" MonolithOffset="593920" MonolithLength="36864"
+          SampleRate="44100.0"/>
+  <sample Root="23" LoKey="23" HiKey="23" LoVel="0" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}KP Samples/KP_DoumbekTek_023.wav" Duplicate="0"
+          SampleEnd="32341" MonolithOffset="630784" MonolithLength="32768"
+          SampleRate="44100.0"/>
+  <sample Root="28" LoKey="24" HiKey="24" LoVel="0" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}KP Samples/KP_LowConga_5_024.wav" Duplicate="0"
+          SampleEnd="33470" MonolithOffset="663552" MonolithLength="36864"
+          SampleRate="44100.0"/>
+  <sample Root="27" LoKey="25" HiKey="25" LoVel="0" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}KP Samples/KP_LowConga_4_025.wav" Duplicate="0"
+          SampleEnd="44783" MonolithOffset="700416" MonolithLength="45056"
+          SampleRate="44100.0"/>
+  <sample Root="24" LoKey="26" HiKey="26" LoVel="0" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}KP Samples/KP_LowConga_1_026.wav" Duplicate="0"
+          SampleEnd="47961" MonolithOffset="745472" MonolithLength="49152"
+          SampleRate="44100.0"/>
+  <sample Root="25" LoKey="27" HiKey="27" LoVel="0" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}KP Samples/KP_LowConga_2_027.wav" Duplicate="0"
+          SampleEnd="41460" MonolithOffset="794624" MonolithLength="45056"
+          SampleRate="44100.0"/>
+  <sample Root="26" LoKey="28" HiKey="28" LoVel="0" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}KP Samples/KP_LowConga_3_028.wav" Duplicate="0"
+          SampleEnd="19649" MonolithOffset="839680" MonolithLength="20480"
+          SampleRate="44100.0"/>
+  <sample Root="29" LoKey="29" HiKey="29" LoVel="0" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}KP Samples/KP_HighConga_1_029.wav"
+          Duplicate="0" SampleEnd="37135" MonolithOffset="860160" MonolithLength="40960"
+          SampleRate="44100.0"/>
+  <sample Root="30" LoKey="30" HiKey="30" LoVel="0" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}KP Samples/KP_HighConga_2_030.wav"
+          Duplicate="0" SampleEnd="17621" MonolithOffset="901120" MonolithLength="20480"
+          SampleRate="44100.0"/>
+  <sample Root="31" LoKey="31" HiKey="32" LoVel="0" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}KP Samples/KP_MuteConga_031.wav" Duplicate="0"
+          SampleEnd="47072" MonolithOffset="921600" MonolithLength="49152"
+          SampleRate="44100.0"/>
+  <sample Root="34" LoKey="33" HiKey="34" LoVel="0" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}KP Samples/KP_HighConga_3_033.wav"
+          Duplicate="0" SampleEnd="39264" MonolithOffset="970752" MonolithLength="40960"
+          SampleRate="44100.0"/>
+  <sample Root="35" LoKey="35" HiKey="35" LoVel="0" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}KP Samples/KP_HighConga_4_035.wav"
+          Duplicate="0" SampleEnd="13495" MonolithOffset="1011712" MonolithLength="16384"
+          SampleRate="44100.0"/>
+  <sample Root="37" LoKey="36" HiKey="36" LoVel="0" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}KP Samples/KP_HighTimbale_1_036.wav"
+          Duplicate="0" SampleEnd="46314" MonolithOffset="1028096" MonolithLength="49152"
+          SampleRate="44100.0"/>
+  <sample Root="38" LoKey="37" HiKey="37" LoVel="0" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}KP Samples/KP_LowTimbale_1_037.wav"
+          Duplicate="0" SampleEnd="48773" MonolithOffset="1077248" MonolithLength="49152"
+          SampleRate="44100.0"/>
+  <sample Root="39" LoKey="38" HiKey="38" LoVel="0" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}KP Samples/KP_HighTimbale_2_038.wav"
+          Duplicate="0" SampleEnd="41178" MonolithOffset="1126400" MonolithLength="45056"
+          SampleRate="44100.0"/>
+  <sample Root="40" LoKey="39" HiKey="39" LoVel="0" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}KP Samples/KP_LowTimbale_2_039.wav"
+          Duplicate="0" SampleEnd="34341" MonolithOffset="1171456" MonolithLength="36864"
+          SampleRate="44100.0"/>
+  <sample Root="41" LoKey="40" HiKey="40" LoVel="0" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}KP Samples/KP_HighTimbale_3_040.wav"
+          Duplicate="0" SampleEnd="31723" MonolithOffset="1208320" MonolithLength="32768"
+          SampleRate="44100.0"/>
+  <sample Root="42" LoKey="41" HiKey="41" LoVel="0" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}KP Samples/KP_LowTimbale_3_041.wav"
+          Duplicate="0" SampleEnd="55069" MonolithOffset="1241088" MonolithLength="57344"
+          SampleRate="44100.0"/>
+  <sample Root="43" LoKey="42" HiKey="42" LoVel="0" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}KP Samples/KP_LowTimbale_4_042.wav"
+          Duplicate="0" SampleEnd="52411" MonolithOffset="1298432" MonolithLength="53248"
+          SampleRate="44100.0"/>
+  <sample Root="44" LoKey="43" HiKey="43" LoVel="0" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}KP Samples/KP_HighTimbale_4_043.wav"
+          Duplicate="0" SampleEnd="44443" MonolithOffset="1351680" MonolithLength="45056"
+          SampleRate="44100.0"/>
+  <sample Root="44" LoKey="44" HiKey="44" LoVel="0" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}KP Samples/KP_LowTimbale_5_044.wav"
+          Duplicate="0" SampleEnd="49895" MonolithOffset="1396736" MonolithLength="53248"
+          SampleRate="44100.0"/>
+  <sample Root="45" LoKey="45" HiKey="45" LoVel="0" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}KP Samples/KP_HighTimbale_5_045.wav"
+          Duplicate="0" SampleEnd="51441" MonolithOffset="1449984" MonolithLength="53248"
+          SampleRate="44100.0"/>
+  <sample Root="46" LoKey="46" HiKey="46" LoVel="0" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}KP Samples/KP_HighTimbale_6_046.wav"
+          Duplicate="0" SampleEnd="52800" MonolithOffset="1503232" MonolithLength="53248"
+          SampleRate="44100.0"/>
+  <sample Root="47" LoKey="47" HiKey="47" LoVel="0" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}KP Samples/KP_SleighBells_047.wav"
+          Duplicate="0" SampleEnd="49175" MonolithOffset="1556480" MonolithLength="53248"
+          SampleRate="44100.0"/>
+  <sample Root="48" LoKey="48" HiKey="49" LoVel="0" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}KP Samples/KP_LowBongo_3_048.wav" Duplicate="0"
+          SampleEnd="10238" MonolithOffset="1609728" MonolithLength="12288"
+          SampleRate="44100.0"/>
+  <sample Root="51" LoKey="50" HiKey="51" LoVel="0" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}KP Samples/KP_LowBongo_2_050.wav" Duplicate="0"
+          SampleEnd="26641" MonolithOffset="1622016" MonolithLength="28672"
+          SampleRate="44100.0"/>
+  <sample Root="52" LoKey="52" HiKey="52" LoVel="0" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}KP Samples/KP_HighBongo_4_052.wav"
+          Duplicate="0" SampleEnd="10250" MonolithOffset="1650688" MonolithLength="12288"
+          SampleRate="44100.0"/>
+  <sample Root="53" LoKey="53" HiKey="53" LoVel="0" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}KP Samples/KP_LowBongo_4_053.wav" Duplicate="0"
+          SampleEnd="33643" MonolithOffset="1662976" MonolithLength="36864"
+          SampleRate="44100.0"/>
+  <sample Root="54" LoKey="54" HiKey="54" LoVel="0" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}KP Samples/KP_HighBongo_3_054.wav"
+          Duplicate="0" SampleEnd="33425" MonolithOffset="1699840" MonolithLength="36864"
+          SampleRate="44100.0"/>
+  <sample Root="52" LoKey="55" HiKey="55" LoVel="0" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}KP Samples/KP_HighBongo_1_055.wav"
+          Duplicate="0" SampleEnd="36881" MonolithOffset="1736704" MonolithLength="40960"
+          SampleRate="44100.0"/>
+  <sample Root="51" LoKey="56" HiKey="56" LoVel="0" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}KP Samples/KP_HighBongo_2_056.wav"
+          Duplicate="0" SampleEnd="68077" MonolithOffset="1777664" MonolithLength="69632"
+          SampleRate="44100.0"/>
+  <sample Root="49" LoKey="57" HiKey="57" LoVel="0" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}KP Samples/KP_LowBongo_1_057.wav" Duplicate="0"
+          SampleEnd="8478" MonolithOffset="1847296" MonolithLength="12288"
+          SampleRate="44100.0"/>
+  <sample Root="58" LoKey="58" HiKey="58" LoVel="0" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}KP Samples/KP_CrossSticks_058.wav"
+          Duplicate="0" SampleEnd="48391" MonolithOffset="1859584" MonolithLength="49152"
+          SampleRate="44100.0"/>
+  <sample Root="59" LoKey="59" HiKey="59" LoVel="0" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}KP Samples/KP_Sticks_059.wav" Duplicate="0"
+          SampleEnd="18402" MonolithOffset="1908736" MonolithLength="20480"
+          SampleRate="44100.0"/>
+  <sample Root="60" LoKey="60" HiKey="60" LoVel="0" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}KP Samples/KP_Shaker_1_060.wav" Duplicate="0"
+          SampleEnd="7023" MonolithOffset="1929216" MonolithLength="8192"
+          SampleRate="44100.0"/>
+  <sample Root="61" LoKey="61" HiKey="61" LoVel="0" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}KP Samples/KP_Shaker_2_061.wav" Duplicate="0"
+          SampleEnd="41832" MonolithOffset="1937408" MonolithLength="45056"
+          SampleRate="44100.0"/>
+  <sample Root="62" LoKey="62" HiKey="62" LoVel="0" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}KP Samples/KP_Shaker_3_062.wav" Duplicate="0"
+          SampleEnd="4019" MonolithOffset="1982464" MonolithLength="4096"
+          SampleRate="44100.0"/>
+  <sample Root="63" LoKey="63" HiKey="63" LoVel="0" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}KP Samples/KP_Shaker_4_063.wav" Duplicate="0"
+          SampleEnd="22684" MonolithOffset="1986560" MonolithLength="24576"
+          SampleRate="44100.0"/>
+  <sample Root="64" LoKey="64" HiKey="64" LoVel="0" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}KP Samples/KP_Shaker_5_064.wav" Duplicate="0"
+          SampleEnd="19632" MonolithOffset="2011136" MonolithLength="20480"
+          SampleRate="44100.0"/>
+  <sample Root="65" LoKey="65" HiKey="65" LoVel="0" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}KP Samples/KP_Maracas_1_065.wav" Duplicate="0"
+          SampleEnd="16678" MonolithOffset="2031616" MonolithLength="20480"
+          SampleRate="44100.0"/>
+  <sample Root="66" LoKey="66" HiKey="66" LoVel="0" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}KP Samples/KP_Cabasa_066.wav" Duplicate="0"
+          SampleEnd="18336" MonolithOffset="2052096" MonolithLength="20480"
+          SampleRate="44100.0"/>
+  <sample Root="67" LoKey="67" HiKey="67" LoVel="0" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}KP Samples/KP_Maracas_2_067.wav" Duplicate="0"
+          SampleEnd="15365" MonolithOffset="2072576" MonolithLength="16384"
+          SampleRate="44100.0"/>
+  <sample Root="68" LoKey="68" HiKey="68" LoVel="0" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}KP Samples/KP_Slap_068.wav" Duplicate="0"
+          SampleEnd="41607" MonolithOffset="2088960" MonolithLength="45056"
+          SampleRate="44100.0"/>
+  <sample Root="69" LoKey="69" HiKey="69" LoVel="0" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}KP Samples/KP_SlapNoise_069.wav" Duplicate="0"
+          SampleEnd="14802" MonolithOffset="2134016" MonolithLength="16384"
+          SampleRate="44100.0"/>
+  <sample Root="70" LoKey="70" HiKey="70" LoVel="0" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}KP Samples/KP_Bamboo_070.wav" Duplicate="0"
+          SampleEnd="52843" MonolithOffset="2150400" MonolithLength="53248"
+          SampleRate="44100.0"/>
+  <sample Root="71" LoKey="71" HiKey="71" LoVel="0" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}KP Samples/KP_Bottle_071.wav" Duplicate="0"
+          SampleEnd="59262" MonolithOffset="2203648" MonolithLength="61440"
+          SampleRate="44100.0"/>
+  <sample Root="72" LoKey="72" HiKey="72" LoVel="0" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}KP Samples/KP_Vibraslap_1_072.wav"
+          Duplicate="0" SampleEnd="61519" MonolithOffset="2265088" MonolithLength="65536"
+          SampleRate="44100.0"/>
+  <sample Root="73" LoKey="73" HiKey="73" LoVel="0" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}KP Samples/KP_Vibraslap_2_073.wav"
+          Duplicate="0" SampleEnd="92426" MonolithOffset="2330624" MonolithLength="94208"
+          SampleRate="44100.0"/>
+  <sample Root="75" LoKey="74" HiKey="75" LoVel="0" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}KP Samples/KP_Tambourine_1_074.wav"
+          Duplicate="0" SampleEnd="22024" MonolithOffset="2424832" MonolithLength="24576"
+          SampleRate="44100.0"/>
+  <sample Root="83" LoKey="76" HiKey="77" LoVel="0" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}KP Samples/KP_Tambourine_3_076.wav"
+          Duplicate="0" SampleEnd="15512" MonolithOffset="2449408" MonolithLength="16384"
+          SampleRate="44100.0"/>
+  <sample Root="81" LoKey="78" HiKey="79" LoVel="0" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}KP Samples/KP_Tambourine_4_078.wav"
+          Duplicate="0" SampleEnd="20945" MonolithOffset="2465792" MonolithLength="24576"
+          SampleRate="44100.0"/>
+  <sample Root="83" LoKey="80" HiKey="81" LoVel="0" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}KP Samples/KP_Tambourine_5_080.wav"
+          Duplicate="0" SampleEnd="28838" MonolithOffset="2490368" MonolithLength="32768"
+          SampleRate="44100.0"/>
+  <sample Root="75" LoKey="82" HiKey="83" LoVel="0" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}KP Samples/KP_Tambourine_2_082.wav"
+          Duplicate="0" SampleEnd="44021" MonolithOffset="2523136" MonolithLength="45056"
+          SampleRate="44100.0"/>
+  <sample Root="84" LoKey="84" HiKey="85" LoVel="0" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}KP Samples/KP_ShortWhistle_084.wav"
+          Duplicate="0" SampleEnd="44119" MonolithOffset="2568192" MonolithLength="45056"
+          SampleRate="44100.0"/>
+  <sample Root="86" LoKey="86" HiKey="87" LoVel="0" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}KP Samples/KP_LongWhistle_086.wav"
+          Duplicate="0" SampleEnd="61725" MonolithOffset="2613248" MonolithLength="65536"
+          SampleRate="44100.0"/>
+  <sample Root="88" LoKey="88" HiKey="88" LoVel="0" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}KP Samples/KP_LowCuica_3_088.wav" Duplicate="0"
+          SampleEnd="37436" MonolithOffset="2678784" MonolithLength="40960"
+          SampleRate="44100.0"/>
+  <sample Root="89" LoKey="89" HiKey="89" LoVel="0" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}KP Samples/KP_LowCuica_1_089.wav" Duplicate="0"
+          SampleEnd="65932" MonolithOffset="2719744" MonolithLength="69632"
+          SampleRate="44100.0"/>
+  <sample Root="90" LoKey="90" HiKey="90" LoVel="0" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}KP Samples/KP_LowCuica_2_090.wav" Duplicate="0"
+          SampleEnd="43896" MonolithOffset="2789376" MonolithLength="45056"
+          SampleRate="44100.0"/>
+  <sample Root="91" LoKey="91" HiKey="91" LoVel="0" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}KP Samples/KP_Cuica_2_091.wav" Duplicate="0"
+          SampleEnd="25380" MonolithOffset="2834432" MonolithLength="28672"
+          SampleRate="44100.0"/>
+  <sample Root="92" LoKey="92" HiKey="92" LoVel="0" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}KP Samples/KP_Cuica_1_092.wav" Duplicate="0"
+          SampleEnd="16325" MonolithOffset="2863104" MonolithLength="16384"
+          SampleRate="44100.0"/>
+  <sample Root="93" LoKey="93" HiKey="93" LoVel="0" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}KP Samples/KP_HighCuica_1_093.wav"
+          Duplicate="0" SampleEnd="43458" MonolithOffset="2879488" MonolithLength="45056"
+          SampleRate="44100.0"/>
+  <sample Root="94" LoKey="94" HiKey="94" LoVel="0" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}KP Samples/KP_HighCuica_2_094.wav"
+          Duplicate="0" SampleEnd="33121" MonolithOffset="2924544" MonolithLength="36864"
+          SampleRate="44100.0"/>
+  <sample Root="98" LoKey="95" HiKey="95" LoVel="0" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}KP Samples/KP_HighCuica_3_095.wav"
+          Duplicate="0" SampleEnd="57402" MonolithOffset="2961408" MonolithLength="61440"
+          SampleRate="44100.0"/>
+  <sample Root="96" LoKey="96" HiKey="96" LoVel="0" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}KP Samples/KP_WoodBlock_1_096.wav"
+          Duplicate="0" SampleEnd="28111" MonolithOffset="3022848" MonolithLength="28672"
+          SampleRate="44100.0"/>
+  <sample Root="98" LoKey="97" HiKey="98" LoVel="0" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}KP Samples/KP_LowWoodBlock_1_097.wav"
+          Duplicate="0" SampleEnd="39470" MonolithOffset="3051520" MonolithLength="40960"
+          SampleRate="44100.0"/>
+  <sample Root="99" LoKey="99" HiKey="99" LoVel="0" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}KP Samples/KP_HighWoodBlock_1_099.wav"
+          Duplicate="0" SampleEnd="35381" MonolithOffset="3092480" MonolithLength="36864"
+          SampleRate="44100.0"/>
+  <sample Root="100" LoKey="100" HiKey="100" LoVel="0" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}KP Samples/KP_LowWoodBlock_2_100.wav"
+          Duplicate="0" SampleEnd="20914" MonolithOffset="3129344" MonolithLength="24576"
+          SampleRate="44100.0"/>
+  <sample Root="101" LoKey="101" HiKey="101" LoVel="0" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}KP Samples/KP_HighWoodBlock_2_101.wav"
+          Duplicate="0" SampleEnd="21111" MonolithOffset="3153920" MonolithLength="24576"
+          SampleRate="44100.0"/>
+  <sample Root="102" LoKey="102" HiKey="102" LoVel="0" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}KP Samples/KP_Claves_1_102.wav" Duplicate="0"
+          SampleEnd="22641" MonolithOffset="3178496" MonolithLength="24576"
+          SampleRate="44100.0"/>
+  <sample Root="103" LoKey="103" HiKey="103" LoVel="0" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}KP Samples/KP_Claves_2_103.wav" Duplicate="0"
+          SampleEnd="35264" MonolithOffset="3203072" MonolithLength="36864"
+          SampleRate="44100.0"/>
+  <sample Root="104" LoKey="104" HiKey="104" LoVel="0" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}KP Samples/KP_Claves_3_104.wav" Duplicate="0"
+          SampleEnd="50695" MonolithOffset="3239936" MonolithLength="53248"
+          SampleRate="44100.0"/>
+  <sample Root="105" LoKey="105" HiKey="105" LoVel="0" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}KP Samples/KP_WoodBlock_2_105.wav"
+          Duplicate="0" SampleEnd="9383" MonolithOffset="3293184" MonolithLength="12288"
+          SampleRate="44100.0"/>
+  <sample Root="106" LoKey="106" HiKey="106" LoVel="0" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}KP Samples/KP_Castanets_1_106.wav"
+          Duplicate="0" SampleEnd="20298" MonolithOffset="3305472" MonolithLength="20480"
+          SampleRate="44100.0"/>
+  <sample Root="107" LoKey="107" HiKey="107" LoVel="0" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}KP Samples/KP_Castanets_2_107.wav"
+          Duplicate="0" SampleEnd="2632" MonolithOffset="3325952" MonolithLength="4096"
+          SampleRate="44100.0"/>
+  <sample Root="108" LoKey="108" HiKey="108" LoVel="0" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}KP Samples/KP_PipeHit_108.wav" Duplicate="0"
+          SampleEnd="36905" MonolithOffset="3330048" MonolithLength="40960"
+          SampleRate="44100.0"/>
+  <sample Root="109" LoKey="109" HiKey="109" LoVel="0" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}KP Samples/KP_LowAgogo_1_109.wav" Duplicate="0"
+          SampleEnd="46250" MonolithOffset="3371008" MonolithLength="49152"
+          SampleRate="44100.0"/>
+  <sample Root="110" LoKey="110" HiKey="110" LoVel="0" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}KP Samples/KP_LowAgogo_2_110.wav" Duplicate="0"
+          SampleEnd="37375" MonolithOffset="3420160" MonolithLength="40960"
+          SampleRate="44100.0"/>
+  <sample Root="111" LoKey="111" HiKey="111" LoVel="0" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}KP Samples/KP_HighAgogo_1_111.wav"
+          Duplicate="0" SampleEnd="46003" MonolithOffset="3461120" MonolithLength="49152"
+          SampleRate="44100.0"/>
+  <sample Root="112" LoKey="112" HiKey="112" LoVel="0" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}KP Samples/KP_HighAgogo_2_112.wav"
+          Duplicate="0" SampleEnd="35232" MonolithOffset="3510272" MonolithLength="36864"
+          SampleRate="44100.0"/>
+  <sample Root="113" LoKey="113" HiKey="113" LoVel="0" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}KP Samples/KP_Agogo_3_113.wav" Duplicate="0"
+          SampleEnd="41904" MonolithOffset="3547136" MonolithLength="45056"
+          SampleRate="44100.0"/>
+  <sample Root="114" LoKey="114" HiKey="114" LoVel="0" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}KP Samples/KP_Cowbell_1_114.wav" Duplicate="0"
+          SampleEnd="3560" MonolithOffset="3592192" MonolithLength="4096"
+          SampleRate="44100.0"/>
+  <sample Root="115" LoKey="115" HiKey="115" LoVel="0" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}KP Samples/KP_Cowbell_2_115.wav" Duplicate="0"
+          SampleEnd="3484" MonolithOffset="3596288" MonolithLength="4096"
+          SampleRate="44100.0"/>
+  <sample Root="116" LoKey="116" HiKey="116" LoVel="0" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}KP Samples/KP_Cowbell_3_116.wav" Duplicate="0"
+          SampleEnd="15792" MonolithOffset="3600384" MonolithLength="16384"
+          SampleRate="44100.0"/>
+  <sample Root="117" LoKey="117" HiKey="117" LoVel="0" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}KP Samples/KP_Cowbell_4_117.wav" Duplicate="0"
+          SampleEnd="52021" MonolithOffset="3616768" MonolithLength="53248"
+          SampleRate="44100.0"/>
+  <sample Root="118" LoKey="118" HiKey="118" LoVel="0" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}KP Samples/KP_Cowbell_5_118.wav" Duplicate="0"
+          SampleEnd="14356" MonolithOffset="3670016" MonolithLength="16384"
+          SampleRate="44100.0"/>
+  <sample Root="119" LoKey="119" HiKey="119" LoVel="0" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}KP Samples/KP_Cowbell_6_119.wav" Duplicate="0"
+          SampleEnd="60357" MonolithOffset="3686400" MonolithLength="61440"
+          SampleRate="44100.0"/>
+  <sample Root="120" LoKey="120" HiKey="120" LoVel="0" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}KP Samples/KP_ShortGuiro_1_120.wav"
+          Duplicate="0" SampleEnd="14538" MonolithOffset="3747840" MonolithLength="16384"
+          SampleRate="44100.0"/>
+  <sample Root="121" LoKey="121" HiKey="121" LoVel="0" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}KP Samples/KP_ShortGuiro_2_121.wav"
+          Duplicate="0" SampleEnd="22007" MonolithOffset="3764224" MonolithLength="24576"
+          SampleRate="44100.0"/>
+  <sample Root="122" LoKey="122" HiKey="122" LoVel="0" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}KP Samples/KP_LongGuiro_1_122.wav"
+          Duplicate="0" SampleEnd="22575" MonolithOffset="3788800" MonolithLength="24576"
+          SampleRate="44100.0"/>
+  <sample Root="123" LoKey="123" HiKey="123" LoVel="0" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}KP Samples/KP_LongGuiro_2_123.wav"
+          Duplicate="0" SampleEnd="17994" MonolithOffset="3813376" MonolithLength="20480"
+          SampleRate="44100.0"/>
+  <sample Root="124" LoKey="124" HiKey="124" LoVel="0" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}KP Samples/KP_Guiro_3_124.wav" Duplicate="0"
+          SampleEnd="9874" MonolithOffset="3833856" MonolithLength="12288"
+          SampleRate="44100.0"/>
+  <sample Root="125" LoKey="125" HiKey="125" LoVel="0" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}KP Samples/KP_TriangleOpen_125.wav"
+          Duplicate="0" SampleEnd="52647" MonolithOffset="3846144" MonolithLength="53248"
+          SampleRate="44100.0"/>
+  <sample Root="126" LoKey="126" HiKey="126" LoVel="0" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}KP Samples/KP_TriangleClosed_126.wav"
+          Duplicate="0" SampleEnd="31074" MonolithOffset="3899392" MonolithLength="32768"
+          SampleRate="44100.0"/>
+  <sample Root="127" LoKey="127" HiKey="127" LoVel="0" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}KP Samples/KP_LongWhistle_2_127.wav"
+          Duplicate="0" SampleEnd="59534" MonolithOffset="3932160" MonolithLength="61440"
+          SampleRate="44100.0"/>
+</samplemap>
