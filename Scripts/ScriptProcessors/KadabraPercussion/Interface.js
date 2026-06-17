@@ -182,15 +182,21 @@ const var DelayTimeKnob     = Content.getComponent("Delay Time");
 const var DelayFeedbackKnob = Content.getComponent("Delay Feedback");
 const var DelaySyncMode     = Content.getComponent("delaySyncMode");
 const var Delay1            = Synth.getEffect("Delay1");
-const var SYNC_OFFSET = 5; // HISE_USE_EXTENDED_TEMPO_VALUES adds 5 slow values before "1/1"
+
+// Per-mode memory — defaults apply on first load; DAW recall overwrites via callbacks
+reg lastFreeValue = 400;
+reg lastSyncValue = 8;
 
 inline function onDelayTimeControl(component, value)
 {
-    local sendValue = value;
+    // Track the value per-mode so mode toggles can restore it later
     if (DelaySyncMode.getValue() == 1)
-        sendValue = value + SYNC_OFFSET;
-    Delay1.setAttribute(0, sendValue);
-    Delay1.setAttribute(1, sendValue);
+        lastSyncValue = value;
+    else
+        lastFreeValue = value;
+
+    Delay1.setAttribute(0, value);
+    Delay1.setAttribute(1, value);
 }
 DelayTimeKnob.setControlCallback(onDelayTimeControl);
 
@@ -211,7 +217,8 @@ inline function onDelaySyncModeControl(component, value)
         DelayTimeKnob.set("max", 18);
         DelayTimeKnob.set("middlePosition", 9);
         DelayTimeKnob.set("stepSize", 1);
-        DelayTimeKnob.setValue(8);
+        DelayTimeKnob.set("defaultValue", 8);     // double-click reset target
+        DelayTimeKnob.setValue(lastSyncValue);    // restore last sync value
     }
     else
     {
@@ -219,11 +226,11 @@ inline function onDelaySyncModeControl(component, value)
         DelayTimeKnob.set("max", 2500);
         DelayTimeKnob.set("middlePosition", 500);
         DelayTimeKnob.set("stepSize", 1);
-        DelayTimeKnob.setValue(400);
+        DelayTimeKnob.set("defaultValue", 400);   // double-click reset target
+        DelayTimeKnob.setValue(lastFreeValue);    // restore last free value
     }
 
     local pushValue = DelayTimeKnob.getValue();
-    if (value == 1) pushValue = pushValue + SYNC_OFFSET;
     Delay1.setAttribute(0, pushValue);
     Delay1.setAttribute(1, pushValue);
 }
@@ -235,6 +242,8 @@ if (DelaySyncMode.getValue() == 1)
     DelayTimeKnob.set("max", 18);
     DelayTimeKnob.set("middlePosition", 9);
     DelayTimeKnob.set("stepSize", 1);
+    DelayTimeKnob.set("defaultValue", 8);
+    DelayTimeKnob.setValue(lastSyncValue);
 }
 else
 {
@@ -242,13 +251,20 @@ else
     DelayTimeKnob.set("max", 2500);
     DelayTimeKnob.set("middlePosition", 500);
     DelayTimeKnob.set("stepSize", 1);
+    DelayTimeKnob.set("defaultValue", 400);
+    DelayTimeKnob.setValue(lastFreeValue);
 }
+
+// push the initial value through so audio matches the UI on load
+local initValue = DelayTimeKnob.getValue();
+Delay1.setAttribute(0, initValue);
+Delay1.setAttribute(1, initValue);
 
 // --- Delay Feedback label ---
 const var delayFeedbackBroadcaster = Engine.createBroadcaster({
     "id": "delayFeedbackBroadcaster", "args": ["component", "value"], "tags": []
 });
-delayFeedbackBroadcaster.attachToComponentValue(["Delay Feedback"], ""); // ID typo is intentional
+delayFeedbackBroadcaster.attachToComponentValue(["Delay Feedback"], "");
 delayFeedbackBroadcaster.addComponentPropertyListener(
     ["delayFeedbackValue"], ["text"], "DelayFeedbackValue",
     function(index, component, value) { return Math.round(value * 100) + "%"; }
@@ -410,13 +426,13 @@ clipTimer.setTimerCallback(function()
 
     if (now - clickResetMs[0] > CLICK_GUARD_MS)
     {
-        if (pL >= CLIP_THRESHOLD)                                   { newL = true;  lastClipMs[0] = now; }
+        if (pL >= CLIP_THRESHOLD)                                       { newL = true;  lastClipMs[0] = now; }
         else if (clipState[0] && (now - lastClipMs[0] > CLIP_HOLD_MS)) newL = false;
     }
 
     if (now - clickResetMs[1] > CLICK_GUARD_MS)
     {
-        if (pR >= CLIP_THRESHOLD)                                   { newR = true;  lastClipMs[1] = now; }
+        if (pR >= CLIP_THRESHOLD)                                       { newR = true;  lastClipMs[1] = now; }
         else if (clipState[1] && (now - lastClipMs[1] > CLIP_HOLD_MS)) newR = false;
     }
 
@@ -449,11 +465,6 @@ inline function setupSampleFolder()
     if (isDefined(standardSamples) && standardSamples.isDirectory())
     {
         linkFile.writeString(standardSamples.toString(standardSamples.FullPath));
-        Console.print("Sample folder linked: " + standardSamples.toString(standardSamples.FullPath));
-    }
-    else
-    {
-        Console.print("Samples not found in standard location — HISE file picker will appear.");
     }
 }
 

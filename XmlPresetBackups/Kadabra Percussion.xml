@@ -11,11 +11,11 @@
           <Content>
             <Control type="ScriptSlider" id="Saturation" value="0.0"/>
             <Control type="ScriptSlider" id="Brightness" value="2.682209014892578e-7"/>
-            <Control type="ScriptSlider" id="Delay Mix" value="0.4000000059604645"/>
+            <Control type="ScriptSlider" id="Delay Mix" value="0.0"/>
             <Control type="ScriptButton" id="delaySyncMode" value="1.0"/>
-            <Control type="ScriptSlider" id="Delay Time" value="0.0"/>
+            <Control type="ScriptSlider" id="Delay Time" value="8.0"/>
             <Control type="ScriptSlider" id="Delay Feedback" value="0.0"/>
-            <Control type="ScriptSlider" id="Reverb Mix" value="0.0"/>
+            <Control type="ScriptSlider" id="Reverb Mix" value="0.4099999964237213"/>
             <Control type="ScriptSlider" id="Reverb Time" value="0.75"/>
             <Control type="ScriptSlider" id="Fliter Freq" value="20000.0"/>
             <Control type="ScriptSlider" id="Filter Res" value="1.0"/>
@@ -139,15 +139,15 @@
               </ChildProcessors>
               <RoutingMatrix NumSourceChannels="2" Channel0="0" Send0="-1" Channel1="1" Send1="-1"/>
             </Processor>
-            <Processor Type="Delay" ID="Delay1" Bypassed="0" DelayTimeLeft="5.0" DelayTimeRight="5.0"
+            <Processor Type="Delay" ID="Delay1" Bypassed="0" DelayTimeLeft="8.0" DelayTimeRight="8.0"
                        FeedbackLeft="0.0" FeedbackRight="0.0" LowPassFreq="20000.0"
-                       HiPassFreq="40.0" Mix="0.4000000059604645" TempoSync="1.0">
+                       HiPassFreq="40.0" Mix="0.0" TempoSync="1.0">
               <ChildProcessors/>
               <RoutingMatrix NumSourceChannels="2" Channel0="0" Send0="-1" Channel1="1" Send1="-1"/>
             </Processor>
             <Processor Type="SimpleReverb" ID="Simple Reverb1" Bypassed="0" RoomSize="0.75"
-                       Damping="0.6000000238418579" WetLevel="0.0" DryLevel="1.0" Width="0.800000011920929"
-                       FreezeMode="0.1000000014901161">
+                       Damping="0.6000000238418579" WetLevel="0.4099999964237213" DryLevel="0.5900000333786011"
+                       Width="0.800000011920929" FreezeMode="0.1000000014901161">
               <ChildProcessors/>
               <RoutingMatrix NumSourceChannels="2" Channel0="0" Send0="-1" Channel1="1" Send1="-1"/>
             </Processor>
