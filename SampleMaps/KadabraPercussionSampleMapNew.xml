@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <samplemap ID="KadabraPercussionSampleMapNew" RRGroupAmount="1.0" MicPositions=";"
-           CrossfadeGamma="1.0" SaveMode="2">
+           CrossfadeGamma="1.0" SaveMode="1">
   <sample Root="0" LoKey="0" HiKey="0" LoVel="0" HiVel="127" RRGroup="1"
           FileName="{PROJECT_FOLDER}KP Samples/KP_Klank_1_000.wav" Duplicate="0"
           SampleEnd="23655" MonolithOffset="0" MonolithLength="24576" SampleRate="44100.0"/>

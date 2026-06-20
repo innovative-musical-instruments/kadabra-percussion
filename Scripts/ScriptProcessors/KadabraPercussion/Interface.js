@@ -176,6 +176,10 @@ aboutButton.setControlCallback(onAboutButtonControl);
 //
 // Requires HISE_MAX_DELAY_TIME_SAMPLES=524288 in project ExtraDefinitions
 // for full 2500 ms range at all common sample rates.
+//
+// SYNC_OFFSET: compensates for 5 extra slow divisions prepended by
+// HISE_USE_EXTENDED_TEMPO_VALUES=1 in compiled builds.
+// Applied to audio attribute calls only — display label uses raw knob index.
 // =============================================================================
 
 const var DelayTimeKnob     = Content.getComponent("Delay Time");
@@ -183,20 +187,26 @@ const var DelayFeedbackKnob = Content.getComponent("Delay Feedback");
 const var DelaySyncMode     = Content.getComponent("delaySyncMode");
 const var Delay1            = Synth.getEffect("Delay1");
 
-// Per-mode memory — defaults apply on first load; DAW recall overwrites via callbacks
-reg lastFreeValue = 400;
-reg lastSyncValue = 8;
+// Per-mode memory — stored in hidden knobs so values are saved/recalled with presets
+const var delayFreeMemory = Content.getComponent("delayFreeMemory");
+const var delaySyncMemory = Content.getComponent("delaySyncMemory");
+
+// Sync offset: compensates for 5 extra slow divisions prepended by
+// HISE_USE_EXTENDED_TEMPO_VALUES=1 in compiled builds.
+// Applied to audio attribute calls only — display label uses raw knob index.
+const var SYNC_OFFSET = 5;
 
 inline function onDelayTimeControl(component, value)
 {
-    // Track the value per-mode so mode toggles can restore it later
+    // Track the value per-mode in hidden knobs so it's saved with presets
     if (DelaySyncMode.getValue() == 1)
-        lastSyncValue = value;
+        delaySyncMemory.setValue(value);
     else
-        lastFreeValue = value;
+        delayFreeMemory.setValue(value);
 
-    Delay1.setAttribute(0, value);
-    Delay1.setAttribute(1, value);
+    var audioValue = (DelaySyncMode.getValue() == 1) ? value + SYNC_OFFSET : value;
+    Delay1.setAttribute(0, audioValue);
+    Delay1.setAttribute(1, audioValue);
 }
 DelayTimeKnob.setControlCallback(onDelayTimeControl);
 
@@ -217,8 +227,8 @@ inline function onDelaySyncModeControl(component, value)
         DelayTimeKnob.set("max", 18);
         DelayTimeKnob.set("middlePosition", 9);
         DelayTimeKnob.set("stepSize", 1);
-        DelayTimeKnob.set("defaultValue", 8);     // double-click reset target
-        DelayTimeKnob.setValue(lastSyncValue);    // restore last sync value
+        DelayTimeKnob.set("defaultValue", 8);
+        DelayTimeKnob.setValue(delaySyncMemory.getValue());   // restore last sync value
     }
     else
     {
@@ -226,13 +236,14 @@ inline function onDelaySyncModeControl(component, value)
         DelayTimeKnob.set("max", 2500);
         DelayTimeKnob.set("middlePosition", 500);
         DelayTimeKnob.set("stepSize", 1);
-        DelayTimeKnob.set("defaultValue", 400);   // double-click reset target
-        DelayTimeKnob.setValue(lastFreeValue);    // restore last free value
+        DelayTimeKnob.set("defaultValue", 400);
+        DelayTimeKnob.setValue(delayFreeMemory.getValue());   // restore last free value
     }
 
     local pushValue = DelayTimeKnob.getValue();
-    Delay1.setAttribute(0, pushValue);
-    Delay1.setAttribute(1, pushValue);
+    var audioPush = (value == 1) ? pushValue + SYNC_OFFSET : pushValue;
+    Delay1.setAttribute(0, audioPush);
+    Delay1.setAttribute(1, audioPush);
 }
 DelaySyncMode.setControlCallback(onDelaySyncModeControl);
 
@@ -243,7 +254,7 @@ if (DelaySyncMode.getValue() == 1)
     DelayTimeKnob.set("middlePosition", 9);
     DelayTimeKnob.set("stepSize", 1);
     DelayTimeKnob.set("defaultValue", 8);
-    DelayTimeKnob.setValue(lastSyncValue);
+    DelayTimeKnob.setValue(delaySyncMemory.getValue());
 }
 else
 {
@@ -252,13 +263,14 @@ else
     DelayTimeKnob.set("middlePosition", 500);
     DelayTimeKnob.set("stepSize", 1);
     DelayTimeKnob.set("defaultValue", 400);
-    DelayTimeKnob.setValue(lastFreeValue);
+    DelayTimeKnob.setValue(delayFreeMemory.getValue());
 }
 
 // push the initial value through so audio matches the UI on load
 local initValue = DelayTimeKnob.getValue();
-Delay1.setAttribute(0, initValue);
-Delay1.setAttribute(1, initValue);
+var audioInit = (DelaySyncMode.getValue() == 1) ? initValue + SYNC_OFFSET : initValue;
+Delay1.setAttribute(0, audioInit);
+Delay1.setAttribute(1, audioInit);
 
 // --- Delay Feedback label ---
 const var delayFeedbackBroadcaster = Engine.createBroadcaster({

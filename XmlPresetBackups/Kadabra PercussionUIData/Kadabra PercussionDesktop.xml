@@ -55,7 +55,7 @@
                  width="80" height="80" tooltip="Reverb Mix" filmstripImage="{PROJECT_FOLDER}final-71.png"
                  numStrips="128.0" scaleFactor="0.2800000011920929" isPluginParameter="1"/>
       <Component type="ScriptLabel" id="reverbMixValue" x="320" y="182" parentComponent="pnlMain"
-                 width="50" height="18" text="41%" textColour="4288387995" bgColour="4278190080"/>
+                 width="50" height="18" text="0%" textColour="4288387995" bgColour="4278190080"/>
       <Component type="ScriptSlider" id="Reverb Time" x="303" y="220" parentComponent="pnlMain"
                  filmstripImage="{PROJECT_FOLDER}final-71.png" scaleFactor="0.2800000011920929"
                  width="80" height="80" numStrips="128.0" processorId="Simple Reverb1"
@@ -153,6 +153,12 @@
                  suffix=" dB" middlePosition="-18.0" numStrips="256.0" filmstripImage="{PROJECT_FOLDER}Kadabra_Output_Fader_filmstrip256f.png"
                  processorId="Simple Gain" parameterId="Gain" defaultValue="-6.0"
                  isPluginParameter="1"/>
+      <Component type="ScriptSlider" id="delayFreeMemory" x="0" y="0" width="100"
+                 height="100" parentComponent="pnlMain" visible="0" min="1.0"
+                 max="2500.0" defaultValue="400.0"/>
+      <Component type="ScriptSlider" id="delaySyncMemory" x="0" y="0" width="100"
+                 height="100" parentComponent="pnlMain" visible="0" defaultValue="8.0"
+                 max="18.0"/>
     </Component>
   </Component>
   <Component type="ScriptFloatingTile" id="presetsManager" x="72" y="50" ContentType="PresetBrowser"
