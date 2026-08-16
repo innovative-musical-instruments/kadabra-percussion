@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Preset Version="1.0.0">
+  <Content Processor="Interface">
+    <Control type="ScriptSlider" id="Saturation" value="0.0"/>
+    <Control type="ScriptSlider" id="Brightness" value="2.682209014892578e-7"/>
+    <Control type="ScriptSlider" id="Delay Mix" value="0.0"/>
+    <Control type="ScriptButton" id="delaySyncMode" value="1.0"/>
+    <Control type="ScriptSlider" id="Delay Time" value="8.0"/>
+    <Control type="ScriptSlider" id="Delay Feedback" value="0.0"/>
+    <Control type="ScriptSlider" id="Reverb Mix" value="0.0"/>
+    <Control type="ScriptSlider" id="Reverb Time" value="0.75"/>
+    <Control type="ScriptSlider" id="Fliter Freq" value="20000.0"/>
+    <Control type="ScriptSlider" id="Filter Res" value="1.0"/>
+    <Control type="ScriptSlider" id="Phaser Depth" value="0.2300000041723251"/>
+    <Control type="ScriptSlider" id="Phaser Rate" value="19.0"/>
+    <Control type="ScriptButton" id="linkKsamplers" value="0.0"/>
+    <Control type="ScriptButton" id="linkKadabra" value="0.0"/>
+    <Control type="ScriptButton" id="linkTribalTools" value="0.0"/>
+    <Control type="ScriptButton" id="linkGithub" value="0.0"/>
+    <Control type="ScriptButton" id="aboutButton" value="0"/>
+    <Control type="ScriptButton" id="presetsButton" value="1.0"/>
+    <Control type="ScriptSlider" id="Output Gain" value="-5.999998569488525"/>
+    <Control type="ScriptSlider" id="delayFreeMemory" value="400.0"/>
+    <Control type="ScriptSlider" id="delaySyncMemory" value="8.0"/>
+  </Content>
+  <MidiAutomation>
+    <Controller Controller="24" Channel="-1" Processor="Interface" MacroIndex="-1"
+                Start="0.0" End="20.0" FullStart="0.0" FullEnd="20.0" Skew="1.0"
+                Interval="1.0" Converter="59.nT6K8ChLQF..VEFa0U1Pu4lckIGckIG.AHPXiQWZ1UF.ADf.lUmaiQWZu4F.ArPATUVav81T441X..."
+                Attribute="Phaser Rate" Inverted="0"/>
+    <Controller Controller="25" Channel="-1" Processor="Interface" MacroIndex="-1"
+                Start="0.0" End="1.0" FullStart="0.0" FullEnd="1.0" Skew="1.0"
+                Interval="0.01" Converter="37.nT6K8CBGgC..VEFa0U1Pu4lckIGckIG.ADPXiQWZ1UF.ADf..."
+                Attribute="Phaser Depth" Inverted="0"/>
+  </MidiAutomation>
+  <MPEData Enabled="0"/>
+</Preset>

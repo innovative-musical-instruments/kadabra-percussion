@@ -30,7 +30,7 @@
   <ExpansionType value="Disabled"/>
   <EncryptionKey value=""/>
   <LinkExpansionsToProject value="No"/>
-  <ReadOnlyFactoryPresets value="No"/>
+  <ReadOnlyFactoryPresets value="1"/>
   <ForceStereoOutput value="No"/>
   <AdminPermissions value="No"/>
   <EmbedUserPresets value="Yes"/>

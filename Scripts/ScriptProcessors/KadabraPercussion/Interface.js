@@ -344,10 +344,13 @@ phaserRateBroadcaster.addComponentPropertyListener(
 // ABOUT SCREEN LINKS
 // =============================================================================
 
-const var linkKsamplers   = Content.getComponent("linkKsamplers");
-const var linkKadabra     = Content.getComponent("linkKadabra");
+// --- About screen links ---
+const var linkKsamplers = Content.getComponent("linkKsamplers");
+const var linkKadabra = Content.getComponent("linkKadabra");
 const var linkTribalTools = Content.getComponent("linkTribalTools");
-const var linkGithub      = Content.getComponent("linkGithub");
+const var linkGithub = Content.getComponent("linkGithub");
+const var linkHISE = Content.getComponent("linkHISE");
+const var linkJUCE = Content.getComponent("linkJUCE");
 
 inline function onLinkKsamplersControl(component, value)
 {
@@ -372,6 +375,18 @@ inline function onLinkGithubControl(component, value)
     if (value) Engine.openWebsite("https://github.com/innovative-musical-instruments/kadabra-percussion");
 }
 linkGithub.setControlCallback(onLinkGithubControl);
+
+inline function onLinkHISEControl(component, value)
+{
+    if (value) Engine.openWebsite("https://hise.dev");
+}
+linkHISE.setControlCallback(onLinkHISEControl);
+
+inline function onLinkJUCEControl(component, value)
+{
+    if (value) Engine.openWebsite("https://juce.com");
+}
+linkJUCE.setControlCallback(onLinkJUCEControl);
 
 // =============================================================================
 // CLIP LED SYSTEM
