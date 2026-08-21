@@ -14,7 +14,9 @@ compatible host. Supported formats include VST3 and others — see
 ## Built With
 
 - [HISE](https://hise.dev/) — Hart Instruments Sampler Engine
-- [JUCE](https://juce.com/) — Cross-platform audio application framework
+- [JUCE](https://juce.com/) — Cross-platform audio application framework,
+  bundled inside HISE at whatever version that HISE release requires; no
+  separate JUCE SDK checkout needed to build this project
 
 ---
 
