@@ -135,6 +135,17 @@ outputGainBroadcaster.addComponentPropertyListener(
     }
 );
 
+// Release Broadcaster
+const var releaseBroadcaster = Engine.createBroadcaster({
+  "id": "releaseBroadcaster",
+  "args": ["component", "value"],
+  "tags": []
+});
+releaseBroadcaster.attachToComponentValue(["Release"], "");
+releaseBroadcaster.addComponentPropertyListener(["releaseValue"], ["text"], "ReleaseValue", function(index, component, value){
+    return Engine.doubleToString(value, 1) + "ms";
+});
+
 // =============================================================================
 // ABOUT / PRESETS PANEL TOGGLES
 // The two panels are mutually exclusive — opening one closes the other.
