@@ -197,8 +197,7 @@
             <Processor Type="ModulatorChain" ID="GainModulation" Bypassed="0" Intensity="1.0">
               <ChildProcessors>
                 <Processor Type="SimpleEnvelope" ID="DefaultEnvelope1" Bypassed="0" Monophonic="0.0"
-                           Retrigger="1.0" Intensity="1.0" Attack="0.0" Release="1.0"
-                           LinearMode="1.0">
+                           Retrigger="1.0" Intensity="1.0" Attack="0.0" Release="1.0" LinearMode="1.0">
                   <ChildProcessors>
                     <Processor Type="ModulatorChain" ID="Attack Time Modulation" Bypassed="0"
                                Intensity="1.0">
