@@ -30,14 +30,14 @@
                  numStrips="128.0" width="65" height="65" isPluginParameter="1"/>
       <Component type="ScriptLabel" id="delayMixValue" x="202" y="177" parentComponent="pnlMain"
                  width="64" height="17" text="0%" textColour="4293454068" fontSize="11.0"/>
-      <Component type="ScriptButton" id="delaySyncMode" x="182" y="307" width="106"
-                 height="19" parentComponent="pnlMain" numStrips="2.0" filmstripImage="{PROJECT_FOLDER}toggle-sync-106x19-2f.png"
+      <Component type="ScriptButton" id="delaySyncMode" x="209" y="310" width="53"
+                 height="19" parentComponent="pnlMain" numStrips="2.0" filmstripImage="{PROJECT_FOLDER}toggle-sync-53x19-2f.png"
                  isPluginParameter="1" pluginParameterName="Delay Sync"/>
       <Component type="ScriptSlider" id="Delay Time" x="180" y="230" stepSize="1"
                  max="18" macroControl="No MacroControl" middlePosition="9" parentComponent="pnlMain"
                  filmstripImage="{PROJECT_FOLDER}knob-65x65-128f.png" numStrips="128.0"
                  width="49" height="49" isPluginParameter="1" pluginParameterName="Delay Time"
-                 defaultValue="8.0" scaleFactor="0.75"/>
+                 defaultValue="7.0" scaleFactor="0.75"/>
       <Component type="ScriptLabel" id="delayTimeValue" x="178" y="282" parentComponent="pnlMain"
                  width="52" height="17" text="1/8" textColour="4293454068" fontSize="11.0"/>
       <Component type="ScriptSlider" id="Delay Feedback" x="240" y="230" width="49"
@@ -169,7 +169,7 @@
                  height="100" parentComponent="pnlMain" visible="0" min="1.0"
                  max="2500.0" defaultValue="400.0"/>
       <Component type="ScriptSlider" id="delaySyncMemory" x="0" y="0" width="100"
-                 height="100" parentComponent="pnlMain" visible="0" defaultValue="8.0"
+                 height="100" parentComponent="pnlMain" visible="0" defaultValue="7.0"
                  max="18.0"/>
     </Component>
   </Component>
